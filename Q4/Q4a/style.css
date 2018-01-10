@@ -1,0 +1,244 @@
+@CHARSET "UTF-8";
+div[id='bloc_page'] {
+	width				: 700px;
+	height				: initial;
+	margin				: auto;
+	background-color	: white;
+	text-align			: center;
+	border-radius		: 10px;
+	padding				: 10px;
+}
+
+#imageProduits {
+	width				: 400px;
+	height				: 250px;
+  margin-bottom: 50px;
+
+}
+#imageBpDeconnexion{
+	display: block;
+	margin: auto;
+}
+div[id='bloc_page'] span {
+	font-size			: small;
+}
+
+label {
+	font-family		: fantasy;
+	display			: inline-block;
+	width			: 150px;
+	padding			: 5px;
+	color			: #72253a;
+}
+
+.warning{
+    font-family		: fantasy;
+    display			: inline-block;
+    padding			: 5px;
+    color			: red;
+    text-shadow		: 1px 1px 5px white;
+
+}
+input[type="button"]{
+
+	margin-left		: 50px;
+  	margin-top		: 5px;
+  	color			: white;
+  	background		: url('images/fond_degraderouge.png') repeat-x;
+  	border			: none;
+  	font-size		: smaller;
+  	font-family		: fantasy;
+  	border-radius	: 5px 5px 5px 5px;
+}
+
+.coinsArrondis{
+	border-radius	: 5px;
+}
+
+
+h1{
+	color				: #eb708d;
+	font-family:cursive;
+	text-shadow			: 2px 2px 2px #8f9ca1;
+	text-align: center;
+}
+
+
+.admin{
+	background-color	: rgba(255,0,0,1);
+	color 				: black;
+	font-weight			: bold;
+
+}
+
+.admin_index{
+	height				: 75px;
+	background-color	: rgba(255,0,0,1);
+	color 				: black;
+	font-weight			: bold;
+}
+
+.admin a{
+	text-decoration		: none;
+	color				: white;
+	border				: 3px solid red;
+	border-radius		: 5px;
+	box-shadow			: 2px 2px 4px black;
+	padding				: 2px;
+}
+
+.admin a:hover{
+	color				: white;
+	text-shadow			: 2px 2px 5px black;
+	font-size			: 1.1em;
+}
+
+.utilisateur{
+	background-color	: rgba(0,0,255,0.8);
+	color 				: white;
+}
+
+.utilisateur_index{
+	height				: 75px;
+	background-color	: rgba(0,0,255,0.8);
+	color 				: white;
+}
+
+.utilisateur a{
+	text-decoration		: none;
+	color				: white;
+	border				: 3px solid blue;
+	border-radius		: 5px;
+	box-shadow			: 2px 2px 4px black;
+	padding				: 2px;
+}
+
+.utilisateur a:hover{
+	text-shadow			: 4px 4px 2px black;
+	font-size			: 1.1em;
+}
+#deconnexion{
+	width				: 50px;
+	height				: 50px;
+}
+#bp_deconnexion{
+	width				: 40px;
+	height				: 40px;
+}
+
+table {
+	border-collapse		: collapse;
+	margin				: auto;
+	background			: rgba(0,0,0,1);
+	border-radius		: 5px;
+   /* overflow			: hidden;*/
+	color				: white;
+}
+
+form table {
+	border-collapse		: collapse;
+	margin				: auto;
+	background			: white;
+	border-radius		: 0px;
+   /* overflow			: hidden;*/
+	color				: white;
+}
+
+form td,th{
+	border				: 1px solid white;
+
+}
+
+td,th{
+	border				: 1px solid red;
+	width				: 150px;
+	padding				: 5px;
+	text-align: center;
+}
+
+#div_operations_admin{
+	width				: 300px;
+	height				: 400px;
+	background			: rgba(255,255,255,1);
+
+
+
+}
+#div_operations_client{
+	width				: 300px;
+	height				: 400px;
+	background			: rgba(255,255,255,1);
+margin: auto;
+
+}
+
+#div_operations_client label{
+	/* width				: 300px;
+	height				: 400px;
+	background			: rgba(255,255,255,1); */
+	color				: #eb708d;
+	font-family:cursive;
+	text-shadow			: 2px 2px 2px #8f9ca1;
+	display: block;
+  margin: auto;
+  text-align: center;
+
+
+}
+
+
+#div_operations_admin label{
+	width				: 150px;
+	color				: red;
+    font-family			: fantasy;
+    font-size			: 1.2em;
+    text-shadow			: 2px 2px 2px;
+
+}
+
+#listes_operation_admin{
+	width				: 200px;
+
+
+}
+
+#operationAdminSelected{
+	visibility			: hidden;
+}
+
+.lienSuppression{
+	color				: white;
+    text-decoration:	: initial;
+}
+
+.lienSuppression:hover{
+	color				: red;
+	display				: block;
+}
+.bp_ok{
+	width				: 20px;
+	height				: 20px;
+	float				: right;
+}
+.bp_suppression{
+	width				: 20px;
+	height				: 20px;
+
+}
+
+span{
+	color				: #7777FF;
+	font-family			: fantasy;
+    font-size			: 0.8em;
+	}
+
+
+#historique {
+	margin:auto;
+	color:inherit;
+	background-color: #eb708dc7;
+}
+#listes_operation_client{
+	display: block;
+    margin: auto;
+}
